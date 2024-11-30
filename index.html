@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column align-items-center justify-content-center vh-100" id="tag-manager">
+        <form action="">
+            <div class="input-group mb-3 rounded">
+                <input type="text" class="form-control text-light" name="tag" id="tag" placeholder="New Tag" aria-label="New Tag"
+                    aria-describedby="tags">
+                <button class="input-group-text" id="add-tag">
+                    <!-- <iconify-icon icon="line-md:search-twotone" style="color: #D86807"class="flip" width="20" height="20"></iconify-icon> -->
+                     Add
+                </button>
+            </div>
+        </form>
+        <div id="tags" class="d-flex flex-wrap mt-4">
+
+        </div>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

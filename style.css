@@ -1,0 +1,110 @@
+.flip {
+    transform: rotateY(180deg);
+}
+
+#tags {
+    max-width: 50%;
+}
+
+.form-control {
+    background: transparent !important;
+    transition: all 0.5s linear;
+}
+
+.input-group {
+    transition: all 0.5s linear;
+}
+
+.input-group-text {
+    color: #D86807;
+    transition: all 0.3s linear;
+}
+
+.input-group-text:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.form-control:focus {
+    transition: all 0.5s linear;
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.75) !important;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.remove-tag {
+    cursor: pointer;
+}
+
+iconify-icon.remove {
+    transform: translateY(3px);
+    background-color: #fff;
+    color: #D86807;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.badge {
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.25) !important;
+    transition: all 0.3s linear;
+}
+
+.badge:hover {
+    box-shadow: 0px 0px 10px -1px rgba(255, 255, 255, 0.9) !important;
+}
+
+#tag-manager {
+    background: linear-gradient(268deg, #ca9a3b, #d86807);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 0s ease infinite;
+    -moz-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 54%
+    }
+
+    50% {
+        background-position: 100% 47%
+    }
+
+    100% {
+        background-position: 0% 54%
+    }
+}
