@@ -12,14 +12,11 @@ A simple and user-friendly web application to manage tags for organizing and cat
 
 ## Screenshots
 
-![Home Page](./assets/screenshots/home.png)  
+![Home Page](home.png)  
 *Home page showing the dashboard with tags listed.*
 
-![Add Tag Modal](./assets/screenshots/add-tag.png)  
+![Add Tag Modal](working.png)  
 *Popup modal for adding new tags.*
-
-![Edit Tag Modal](./assets/screenshots/edit-tag.png)  
-*Popup modal for editing existing tags.*
 
 ## Installation
 
